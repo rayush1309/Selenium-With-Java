@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Personal Priject">
+    <parameter name="URL" value="www.example.com></parameter>
+    <parameter name=test"" value="/u/test/>
+</parameter>
+    <listeners>
+        <listener class-name="testNG.Listeners"></listener>
+    </listeners>
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="testNG.day1"></class>
+            <class name="testNG.NewTest"/>
+            <class name="testNG.ADemo">
+                <methods>
+                    <include name="demo2"></include>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Login DepartMent">
+        <classes>
+            <class name="testNG.LoginMainPage" >
+                <methods>
+                    <exclude name="MobileLogin"></exclude>
+                </methods>
+
+            </class>
+
+        </classes>
+    </test>
+    <!-- Test-->
+    <test name="Login and Sign In functionality">
+        <classes>
+            <class name="testNG.day3">
+                <methods>
+                    <exclude name="Mobile.*"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

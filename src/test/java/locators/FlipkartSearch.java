@@ -29,7 +29,7 @@ public class FlipkartSearch {
             System.out.println(name);
         }
 
-        driver.quit();
+
     }
     }
 

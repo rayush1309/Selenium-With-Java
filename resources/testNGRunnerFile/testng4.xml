@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Prod Sanity">
+    <test thread-count="5" name="Regression Testing">
+        <groups>
+            <run>
+                <exclude name="smoke" />
+            </run>
+        </groups>
+        <classes>
+            <class name="testNG.day1" />
+            <class name="testNG.NewTest"/>
+            <class name="testNG.ADemo"/>
+            <class name="testNG.LoginMainPage"></class>
+            <class name="testNG.day3"></class>
+
+        </classes>
+    </test>
+</suite> <!-- Suite -->
