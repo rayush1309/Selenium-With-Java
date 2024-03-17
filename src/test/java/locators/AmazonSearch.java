@@ -31,10 +31,10 @@ public class AmazonSearch {
         // Rest of your code
         Thread.sleep(5000);
         WebElement searchBox = driver.findElement(By.cssSelector("input[id='twotabsearchtextbox']"));
-        actions.moveToElement(searchBox).click().keyDown(Keys.SHIFT).sendKeys("hello").build().perform();
+        actions.moveToElement(searchBox).click().keyDown(Keys.SHIFT).sendKeys("iphone").build().perform();
         actions.doubleClick().build().perform();
 
         // Close the browser
-        driver.quit();
+      //  driver.quit();
     }
 }

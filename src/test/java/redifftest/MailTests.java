@@ -17,7 +17,7 @@ public class MailTests {
         LandingPage landingPage= new LandingPage();
         landingPage.openBrowser();
         LoginPage loginPage=landingPage.clickSignIn();
-        RediffMailPage rediffMailPage =loginPage.doLogin();
+        //RediffMailPage rediffMailPage =loginPage.doLogin();
 
 
 

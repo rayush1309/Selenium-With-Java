@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "ayush-raj",
+    "Password": "Ateyeyu",
+    "boolean": true
+  },
+  {
+    "Name": "ay-raj",
+    "Password": "A@1sh",
+    "boolean": false
+  },
+  {
+    "Name": "ay-raj",
+    "Password": "A@1h",
+    "boolean": false
+  },
+  {
+    "Name": "ayush-raj",
+    "Password": "Atedt",
+    "boolean": false
+  },
+  {
+    "Name": "ayush-raj",
+    "Password": "test",
+    "boolean": true
+  }
+]

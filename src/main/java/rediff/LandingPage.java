@@ -13,8 +13,6 @@ public class LandingPage {
         //perform on clickSignIn
 
 
-
-
-
+        return null;
     }
 }
