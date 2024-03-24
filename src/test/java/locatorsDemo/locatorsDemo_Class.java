@@ -27,6 +27,14 @@ public class locatorsDemo_Class {
         List<WebElement> totalImages= driver.findElements(By.tagName("img"));
         System.out.println("Total Number of images is : "+ totalImages.size());
 
+        String url=driver.getPageSource();
+        System.out.println(url);
+
+        //find All links
+        List<WebElement> links= driver.findElements(By.tagName("a"));
+        System.out.println("Total Number of Links: "+ links.size());
+        
+
 
         //close the browser
         tearDown();
