@@ -2,7 +2,7 @@ package base;
 
 public class MaxOnesCount {
     public static void main(String[] args) {
-        int [] arr = {1, 1, 1, 22, 3, 4, 1,1,1,1,1,1,1 ,9, 7, 6, 1, 1, 1, 1, 1, 1};
+        int [] arr = {1,1,1,22,3,4,1,1,1,19, 7, 6, 1, 1, 1, 1, 1,1};
         countMaxOnesOccurance(arr);
     }
 
