@@ -14,9 +14,9 @@ public class CustomisedXpath {
         String prodName=driver.findElement(By.xpath("//a[(text()='MacBook')]")).getText();
         //normalize space
         String element = driver.findElement(By.xpath("//a[normalize-space()='MacBook']")).getText();
-
         System.out.println(prodName);
         System.out.println(element);
+
 
     }
 }
