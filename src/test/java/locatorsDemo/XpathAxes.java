@@ -9,8 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
 
 public class XpathAxes {
-    public class XPathAxes {
-
         public static void main(String[] args) {
             WebDriverManager.chromedriver().setup();
 
