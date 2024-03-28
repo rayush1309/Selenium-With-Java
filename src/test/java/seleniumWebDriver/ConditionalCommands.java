@@ -44,6 +44,13 @@ public class ConditionalCommands {
         System.out.println("After selection female:"+ female_radioBtn.isSelected());//true
 
 
+        //driver.close(); //single Browser window: will close only current Browser
+        //where driver has foucsed
+        driver.quit(); //all Browser windows that open by WebDriver
+
+
+
+
 
 
 
