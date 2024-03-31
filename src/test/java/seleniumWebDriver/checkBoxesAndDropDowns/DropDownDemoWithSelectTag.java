@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.List;
+
 public class DropDownDemoWithSelectTag {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
@@ -21,6 +23,13 @@ public class DropDownDemoWithSelectTag {
       //  pricingDetails.selectByValue("highestprice"); //use This only if Value attribute is present for option Tag
         //3) select By Index
         pricingDetails.selectByIndex(1);
+
+        //Find the Total Options in the DropDown
+       List<WebElement>optionsAvailable= pricingDetails.getOptions();
+        System.out.println("Total Available Options is: "+optionsAvailable.size());
+       for (WebElement options:optionsAvailable){
+           System.out.println(options.getText());
+       }
 
 
 
